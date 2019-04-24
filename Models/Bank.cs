@@ -10,9 +10,9 @@ namespace Bank_Simul {
             Bank newBank = new Bank ();
             newBank.Name = _bankName;
             newBank.Accounts = new List<Account> ();
-            newBank.Accounts.Add (new Account () { Owner = 0, Balance = 0, Type = "checking" });
-            newBank.Accounts.Add (new Account () { Owner = 0, Balance = 0, Type = "corporate_invest" });
-            newBank.Accounts.Add (new Account () { Owner = 0, Balance = 0, Type = "individual_invest" });
+            newBank.Accounts.Add (new Account () { Owner_Id = 0, Balance = 0, Type = "checking" });
+            newBank.Accounts.Add (new Account () { Owner_Id = 0, Balance = 0, Type = "corporate_invest" });
+            newBank.Accounts.Add (new Account () { Owner_Id = 0, Balance = 0, Type = "individual_invest" });
 
             return newBank;
         }
