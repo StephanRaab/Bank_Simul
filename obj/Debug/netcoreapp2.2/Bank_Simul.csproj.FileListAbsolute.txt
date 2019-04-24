@@ -1,0 +1,14 @@
+/home/belgianbeard/Bank_Simul/bin/Debug/netcoreapp2.2/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/belgianbeard/Bank_Simul/bin/Debug/netcoreapp2.2/xunit.runner.reporters.netcoreapp10.dll
+/home/belgianbeard/Bank_Simul/bin/Debug/netcoreapp2.2/xunit.runner.utility.netcoreapp10.dll
+/home/belgianbeard/Bank_Simul/bin/Debug/netcoreapp2.2/Bank_Simul.deps.json
+/home/belgianbeard/Bank_Simul/bin/Debug/netcoreapp2.2/Bank_Simul.runtimeconfig.json
+/home/belgianbeard/Bank_Simul/bin/Debug/netcoreapp2.2/Bank_Simul.runtimeconfig.dev.json
+/home/belgianbeard/Bank_Simul/bin/Debug/netcoreapp2.2/Bank_Simul.dll
+/home/belgianbeard/Bank_Simul/bin/Debug/netcoreapp2.2/Bank_Simul.pdb
+/home/belgianbeard/Bank_Simul/obj/Debug/netcoreapp2.2/Bank_Simul.csprojAssemblyReference.cache
+/home/belgianbeard/Bank_Simul/obj/Debug/netcoreapp2.2/Bank_Simul.csproj.CoreCompileInputs.cache
+/home/belgianbeard/Bank_Simul/obj/Debug/netcoreapp2.2/Bank_Simul.AssemblyInfoInputs.cache
+/home/belgianbeard/Bank_Simul/obj/Debug/netcoreapp2.2/Bank_Simul.AssemblyInfo.cs
+/home/belgianbeard/Bank_Simul/obj/Debug/netcoreapp2.2/Bank_Simul.dll
+/home/belgianbeard/Bank_Simul/obj/Debug/netcoreapp2.2/Bank_Simul.pdb

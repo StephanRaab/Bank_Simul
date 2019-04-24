@@ -1,0 +1,14 @@
+/home/belgianbeard/consoleTest/obj/Debug/netcoreapp2.2/netcoreapp2.2/consoleTest.csprojAssemblyReference.cache
+/home/belgianbeard/consoleTest/obj/Debug/netcoreapp2.2/netcoreapp2.2/consoleTest.csproj.CoreCompileInputs.cache
+/home/belgianbeard/consoleTest/obj/Debug/netcoreapp2.2/netcoreapp2.2/consoleTest.AssemblyInfoInputs.cache
+/home/belgianbeard/consoleTest/obj/Debug/netcoreapp2.2/netcoreapp2.2/consoleTest.AssemblyInfo.cs
+/home/belgianbeard/consoleTest/bin/Debug/netcoreapp2.2/netcoreapp2.2/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/belgianbeard/consoleTest/bin/Debug/netcoreapp2.2/netcoreapp2.2/xunit.runner.reporters.netcoreapp10.dll
+/home/belgianbeard/consoleTest/bin/Debug/netcoreapp2.2/netcoreapp2.2/xunit.runner.utility.netcoreapp10.dll
+/home/belgianbeard/consoleTest/bin/Debug/netcoreapp2.2/netcoreapp2.2/consoleTest.deps.json
+/home/belgianbeard/consoleTest/bin/Debug/netcoreapp2.2/netcoreapp2.2/consoleTest.runtimeconfig.json
+/home/belgianbeard/consoleTest/bin/Debug/netcoreapp2.2/netcoreapp2.2/consoleTest.runtimeconfig.dev.json
+/home/belgianbeard/consoleTest/bin/Debug/netcoreapp2.2/netcoreapp2.2/consoleTest.dll
+/home/belgianbeard/consoleTest/bin/Debug/netcoreapp2.2/netcoreapp2.2/consoleTest.pdb
+/home/belgianbeard/consoleTest/obj/Debug/netcoreapp2.2/netcoreapp2.2/consoleTest.dll
+/home/belgianbeard/consoleTest/obj/Debug/netcoreapp2.2/netcoreapp2.2/consoleTest.pdb
