@@ -19,7 +19,7 @@ namespace Bank_Simul {
             };
 
             //Act
-            Bank actualBank = Bank.CreateNewBankAccount ("Money Hoarder");
+            Bank actualBank = Program.CreateNewBankAccount ("Money Hoarder");
 
             // Assert
             Assert.Equal (expectedBank.Name, actualBank.Name);
