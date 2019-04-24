@@ -11,7 +11,7 @@ namespace Bank_Simul {
 
             Account corpInvest = new Account ();
             corpInvest.Balance = 1000F;
-            corpInvest.Type = "corporate_invest";
+            corpInvest.Type = Constants.CORPORATE;
 
             // Act
             float actual = Program.Withdraw (250F, corpInvest);
@@ -27,7 +27,7 @@ namespace Bank_Simul {
 
             Account checking = new Account ();
             checking.Balance = 1000F;
-            checking.Type = "checking";
+            checking.Type = Constants.CHECKING;
 
             // Act
             float actual = Program.Deposit (250F, checking);
@@ -44,11 +44,11 @@ namespace Bank_Simul {
 
             Account checking = new Account ();
             checking.Balance = 1000F;
-            checking.Type = "checking";
+            checking.Type = Constants.CHECKING;
 
             Account corporate_invest = new Account ();
             corporate_invest.Balance = 100_000F;
-            corporate_invest.Type = "corporate_invest";
+            corporate_invest.Type = Constants.CORPORATE;
 
             // Act
             Program.Transfer (5000F, corporate_invest, checking);
@@ -65,7 +65,7 @@ namespace Bank_Simul {
 
             Account checking = new Account ();
             checking.Balance = 1000F;
-            checking.Type = "checking";
+            checking.Type = Constants.CHECKING;
 
             // Act
             float actual = Program.Withdraw (1250F, checking);
@@ -81,7 +81,7 @@ namespace Bank_Simul {
 
             Account individual = new Account();
             individual.Balance = 40_637F;
-            individual.Type = "individual_invest";
+            individual.Type = Constants.INDIVIDUAL;
 
             // Act
             float actual = Program.Withdraw(5000F, individual);
@@ -98,11 +98,11 @@ namespace Bank_Simul {
 
             Account checking = new Account ();
             checking.Balance = 1000F;
-            checking.Type = "checking";
+            checking.Type = Constants.CHECKING;
 
             Account individual_invest = new Account ();
             individual_invest.Balance = 67_000F;
-            individual_invest.Type = "individual_invest";
+            individual_invest.Type = Constants.INDIVIDUAL;
 
             // Act
             Program.Transfer (5000F, individual_invest, checking);

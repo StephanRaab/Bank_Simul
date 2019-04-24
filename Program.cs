@@ -9,16 +9,16 @@ namespace Bank_Simul {
             Bank newBank = new Bank ();
             newBank.Name = _bankName;
             newBank.Accounts = new List<Account> ();
-            newBank.Accounts.Add (new Account () { Owner_Id = 0, Balance = 0, Type = "checking" });
-            newBank.Accounts.Add (new Account () { Owner_Id = 0, Balance = 0, Type = "corporate_invest" });
-            newBank.Accounts.Add (new Account () { Owner_Id = 0, Balance = 0, Type = "individual_invest" });
+            newBank.Accounts.Add (new Account () { Owner_Id = 0, Balance = 0, Type = Constants.CHECKING });
+            newBank.Accounts.Add (new Account () { Owner_Id = 0, Balance = 0, Type = Constants.CORPORATE });
+            newBank.Accounts.Add (new Account () { Owner_Id = 0, Balance = 0, Type = Constants.INDIVIDUAL });
 
             return newBank;
         }
 
         public static float Withdraw (float withdrawalAmount, Account startAccount) {
             //exceptions:
-            if (startAccount.Type == "individual_invest" && withdrawalAmount > 1000){
+            if (startAccount.Type == Constants.INDIVIDUAL && withdrawalAmount > 1000){
                 return startAccount.Balance;
             }
             if ((startAccount.Balance - withdrawalAmount) >= 0){
@@ -35,10 +35,10 @@ namespace Bank_Simul {
 
         public static void Transfer (float transferAmount, Account startAccount, Account targetAccount) {
             Withdraw (transferAmount, startAccount);
-            if (startAccount.Type == "individual_invest" && transferAmount <= 1000){
+            if (startAccount.Type == Constants.INDIVIDUAL && transferAmount <= 1000){
                 Deposit(transferAmount, targetAccount);
             }
-            if (startAccount.Type != "individual_invest"){
+            if (startAccount.Type != Constants.INDIVIDUAL){
                 Deposit(transferAmount, targetAccount);
             }
         }
