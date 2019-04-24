@@ -23,7 +23,12 @@ namespace Bank_Simul {
 
         public static void Transfer (float transferAmount, Account startAccount, Account targetAccount) {
             Withdraw (transferAmount, startAccount);
-            Deposit(transferAmount, targetAccount);
+            if (startAccount.Type == "individual_invest" && transferAmount <= 1000){
+                Deposit(transferAmount, targetAccount);
+            }
+            if (startAccount.Type != "individual_invest"){
+                Deposit(transferAmount, targetAccount);
+            }
         }
     }
 }

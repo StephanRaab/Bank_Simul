@@ -93,15 +93,15 @@ namespace Bank_Simul {
         [Fact]
         public void Individual_Transfer_Cap(){
             // Arrange
-            float expectedChecking = 6000F;
-            float expectedindiv = 63_000F;
+            float expectedChecking = 1000F;
+            float expectedIndiv = 67_000F;
 
             Account checking = new Account ();
             checking.Balance = 1000F;
             checking.Type = "checking";
 
             Account individual_invest = new Account ();
-            individual_invest.Balance = 100_000F;
+            individual_invest.Balance = 67_000F;
             individual_invest.Type = "individual_invest";
 
             // Act
@@ -109,7 +109,7 @@ namespace Bank_Simul {
 
             // Assert
             Assert.Equal (expectedChecking, checking.Balance);
-            Assert.Equal (expectedCorp, individual_invest.Balance);
+            Assert.Equal (expectedIndiv, individual_invest.Balance);
         }
     }
 }
